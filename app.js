@@ -11,3 +11,12 @@ if (a + b === 10) {
 } else {
     console.log("The sum is less than 10! Great! (?)");
 }
+
+// Just checking some global variables
+console.log(__dirname);
+console.log(__filename);
+console.log(module);
+
+setInterval(() => {
+    console.log("A random and constant interval");
+}, 5000)
