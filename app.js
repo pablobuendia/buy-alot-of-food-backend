@@ -17,6 +17,13 @@ console.log(__dirname);
 console.log(__filename);
 console.log(module);
 
-setInterval(() => {
-    console.log("A random and constant interval");
-}, 5000)
+const juan = 'juan'
+const pedro = 'pedro'
+
+const sayHi = (name) => {
+    console.log(`Hello there ${name}`);
+}
+
+sayHi('Susana')
+sayHi(juan)
+sayHi(pedro)
