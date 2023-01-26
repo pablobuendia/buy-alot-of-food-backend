@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pablobuendia/node-example-api.git"
+    "url": "git+https://github.com/pablobuendia/buy-alot-of-food-backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pablobuendia/node-example-api/issues"
+    "url": "https://github.com/pablobuendia/buy-alot-of-food-backend/issues"
   },
-  "homepage": "https://github.com/pablobuendia/node-example-api#readme",
+  "homepage": "https://github.com/pablobuendia/buy-alot-of-food-backend#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
