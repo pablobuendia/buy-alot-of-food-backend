@@ -1,7 +1,8 @@
 const { Sequelize } = require('sequelize');
 const Food = require('./models/food.model');
+const config = require('../config/config');
 
-const sequelize = new Sequelize('postgres://postgres:password@localhost:5432/postgres');
+const sequelize = new Sequelize(config.database_url);
 
 const modelDefiners = [
   Food,
