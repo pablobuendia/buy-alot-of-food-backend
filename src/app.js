@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const foodRouter = require('./routes/food.route');
-const config = require('./config/config');
 
 const app = express();
 
@@ -13,11 +12,4 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/api/food', foodRouter);
 
-app.get('/asd', (req, res) => {
-  res.send('yes').end();
-});
-
-const port = config.port || 4040;
-const server = app.listen(port, console.log(`App listening in port ${port}`));
-
-module.exports = { app, server };
+module.exports = app;

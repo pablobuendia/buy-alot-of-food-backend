@@ -1,11 +1,11 @@
 {
   "name": "buy-alot-of-food-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node and express example app",
   "main": "app.js",
   "scripts": {
-    "start": "node ./src/app.js",
-    "dev": "nodemon ./src/app.js"
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
   },
   "repository": {
     "type": "git",
